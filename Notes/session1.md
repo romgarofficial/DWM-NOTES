@@ -284,6 +284,7 @@ Comparison operators are used to compare two values and return a boolean result 
 The `==` operator checks if two values are equal, but it performs type coercion, meaning it converts the operands to the same type before making the comparison.
 
 **Example:**
+
 ```javascript
 let a = 5;
 let b = '5';
@@ -296,6 +297,7 @@ In this example, `a` and `b` are considered equal because `==` converts the stri
 The `===` operator checks if two values are equal and of the same type. It does not perform type coercion.
 
 **Example:**
+
 ```javascript
 let a = 5;
 let b = '5';
@@ -308,6 +310,7 @@ Here, `a` and `b` are not considered equal because `a` is a number and `b` is a 
 The `!=` operator checks if two values are not equal, performing type coercion if necessary.
 
 **Example:**
+
 ```javascript
 let a = 5;
 let b = '5';
@@ -320,6 +323,7 @@ In this case, `a` and `b` are considered equal due to type coercion, so `!=` ret
 The `!==` operator checks if two values are not equal or not of the same type. It does not perform type coercion.
 
 **Example:**
+
 ```javascript
 let a = 5;
 let b = '5';
@@ -329,6 +333,7 @@ console.log(a !== b); // Output: true
 Here, `a` and `b` are not equal in terms of value and type, so `!==` returns `true`.
 
 **Summary of Comparison Operators**
+
 ```javascript
 let x = 5;
 let y = '5';
@@ -347,6 +352,7 @@ Explore the relational operators `<`, `>`, `<=`, and `>=`  in JavaScript. These 
 The `<` operator checks if the value on the left is less than the value on the right.
 
 **Example:**
+
 ```javascript
 let a = 5;
 let b = 10;
@@ -358,6 +364,7 @@ In this example, `5` is less than `10`, so the result is `true`.
 The `>` operator checks if the value on the left is greater than the value on the right.
 
 **Example:**
+
 ```javascript
 let a = 15;
 let b = 10;
@@ -369,6 +376,7 @@ Here, `15` is greater than `10`, so the result is `true`.
 The `<=` operator checks if the value on the left is less than or equal to the value on the right.
 
 **Example:**
+
 ```javascript
 let a = 10;
 let b = 10;
@@ -380,6 +388,7 @@ In this case, `10` is equal to `10`, so the result is `true`.
 The `>=` operator checks if the value on the left is greater than or equal to the value on the right.
 
 **Example:**
+
 ```javascript
 let a = 20;
 let b = 15;
@@ -388,6 +397,7 @@ console.log(a >= b); // Output: true
 Here, `20` is greater than `15`, so the result is `true`.
 
 **Summary of Relational Operators**
+
 ```javascript
 let x = 5;
 let y = 10;
@@ -425,9 +435,9 @@ The `>` operator checks if the value on the left is greater than the value on th
 
 **Example:**
 
-javascript
 
-```
+
+```javascript
 let a = 15;
 let b = 10;
 console.log(a > b); // Output: true
@@ -442,9 +452,9 @@ The `<=` operator checks if the value on the left is less than or equal to the v
 
 **Example:**
 
-javascript
 
-```
+
+```javascript
 let a = 10;
 let b = 10;
 console.log(a <= b); // Output: true
@@ -459,9 +469,9 @@ The `>=` operator checks if the value on the left is greater than or equal to th
 
 **Example:**
 
-javascript
 
-```
+
+```javascript
 let a = 20;
 let b = 15;
 console.log(a >= b); // Output: true
