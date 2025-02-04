@@ -408,9 +408,9 @@ The `<` operator checks if the value on the left is less than the value on the r
 
 **Example:**
 
-javascript
 
-```
+
+```javascript
 let a = 5;
 let b = 10;
 console.log(a < b); // Output: true
