@@ -1,4 +1,4 @@
-# SESSION 1
+# MODULE 1
 
 ![enter image description here](https://www.datocms-assets.com/48401/1628644950-javascript.png?auto=format&fit=max&w=1200)
 
