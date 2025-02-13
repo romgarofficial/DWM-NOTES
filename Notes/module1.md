@@ -545,4 +545,3 @@ These logical operators are essential tools in JavaScript for evaluating and com
 
  - [W3Schools JavaScript](https://www.w3schools.com/js/default.asp)
  - [W3Schools Intro to JavaScript](https://www.w3schools.com/js/js_intro.asp)
- - 
