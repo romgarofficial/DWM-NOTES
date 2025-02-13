@@ -38,7 +38,9 @@ alert(message);
 alert("Hello");
 ```
 **Sample Output:**
+
 ![enter image description here](https://miro.medium.com/v2/resize:fit:1366/1*QpaoE2OwA1-uRV_8XrZcPg.png)
+
 In this example, an alert box with the message "Hello! This is an alert message." will appear, and the user will need to click the OK button to close it.
 
 ## 2. Prompt Method
@@ -55,8 +57,10 @@ prompt(message);
 let userName = prompt("What is your name?");
 alert("Hello, " + userName + "!");
 ```
+**Sample Output:**
 
 ![enter image description here](https://www.dummies.com/wp-content/uploads/492051.image0.jpg)
+
 Once the user enters a name and clicks OK, an alert box will greet the user by name.
 
 # JavaScript Selection Control Structures
